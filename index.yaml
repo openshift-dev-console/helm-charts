@@ -3,7 +3,7 @@ entries:
   101-chart_without_values:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-21T14:48:25.466195+05:30"
+    created: "2023-06-21T14:57:09.213697+05:30"
     description: A Helm chart for Kubernetes
     digest: c00c4e6e3d327ac32c2a74e5ff39e63b8e75fa6b766e33dee63989ed27b90cf2
     name: 101-chart_without_values
@@ -11,10 +11,21 @@ entries:
     urls:
     - 101-chart_without_values-0.1.0.tgz
     version: 0.1.0
+  102-chart_with_one_opt_string:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-21T14:57:09.213873+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 61fb9e6bda58c1d5011660dc725db8e36d26c0fa833499fe6bc5bab59be1542f
+    name: 102-chart_with_one_opt_string
+    type: application
+    urls:
+    - 102-chart_with_one_opt_string-0.1.0.tgz
+    version: 0.1.0
   chart-101:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-21T14:48:25.466768+05:30"
+    created: "2023-06-21T14:57:09.214408+05:30"
     description: A Helm chart for Kubernetes
     digest: c025e8d38293f27473acf02bc6f3fa342ded24dbd32c19d960e779a41593987c
     name: chart-101
@@ -24,7 +35,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-21T14:48:25.466489+05:30"
+    created: "2023-06-21T14:57:09.214151+05:30"
     description: A Helm chart for Kubernetes
     digest: 3ba4ed4513aeeec6c87642f9bca0f3785a244234240737cf446ddb8f50ca1e72
     name: chart-101
@@ -39,7 +50,7 @@ entries:
       charts.openshift.io/provider: RedHat
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-06-21T14:48:25.466955+05:30"
+    created: "2023-06-21T14:57:09.215802+05:30"
     description: A Helm chart for MySQL Service Endpoint Definition (SED)
     digest: ef7cf78e37f74bf3214c9446162907574a443a0f01bbcc7ff44d8b757a6e213d
     kubeVersion: '>=1.20.0'
@@ -48,4 +59,4 @@ entries:
     urls:
     - mysql-sed-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-21T14:48:25.465892+05:30"
+generated: "2023-06-21T14:57:09.213423+05:30"
