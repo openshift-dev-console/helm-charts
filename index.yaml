@@ -3,7 +3,7 @@ entries:
   chart-101:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-21T11:35:52.550056+05:30"
+    created: "2023-06-21T11:57:40.998749+05:30"
     description: A Helm chart for Kubernetes
     digest: c025e8d38293f27473acf02bc6f3fa342ded24dbd32c19d960e779a41593987c
     name: chart-101
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-21T11:35:52.549797+05:30"
+    created: "2023-06-21T11:57:40.998479+05:30"
     description: A Helm chart for Kubernetes
     digest: 3ba4ed4513aeeec6c87642f9bca0f3785a244234240737cf446ddb8f50ca1e72
     name: chart-101
@@ -21,4 +21,20 @@ entries:
     urls:
     - chart-101-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-21T11:35:52.54942+05:30"
+  mysql-sed:
+  - annotations:
+      charts.openshift.io/archs: x86_64
+      charts.openshift.io/name: MYSQL Service Endpoint Definition (SED)
+      charts.openshift.io/provider: RedHat
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-06-21T11:57:40.998965+05:30"
+    description: A Helm chart for MySQL Service Endpoint Definition (SED)
+    digest: ef7cf78e37f74bf3214c9446162907574a443a0f01bbcc7ff44d8b757a6e213d
+    kubeVersion: '>=1.20.0'
+    name: mysql-sed
+    type: application
+    urls:
+    - mysql-sed-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-06-21T11:57:40.998088+05:30"
