@@ -9,7 +9,8 @@
         "type": "object",
         "properties": {
           "address": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^[a-z0-9-_./]+$"
           },
           "age": {
             "type": "integer"
