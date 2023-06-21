@@ -7,6 +7,10 @@
       },
       "details": {
         "type": "object",
+        "required": [
+          "address",
+          "age"
+        ],
         "properties": {
           "address": {
             "type": "string",
