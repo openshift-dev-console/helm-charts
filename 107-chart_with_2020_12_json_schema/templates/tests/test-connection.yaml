@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "107-chart_with_2020_12_json_schema.fullname" . }}-test-connection"
+  labels:
+    {{- include "107-chart_with_2020_12_json_schema.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+  restartPolicy: Never

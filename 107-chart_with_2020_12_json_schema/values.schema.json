@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "required": ["address"],
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "address": {
+        "type": "array",
+        "title": "Address",
+        "description": "Define address",
+        "items": {
+          "type": "object",
+          "additionalProperties": true,
+          "required": [
+            "Address1",
+            "Address2"
+          ],
+          "properties": {
+            "Address1": {
+              "type": "string"
+            },
+            "Address2": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+}
