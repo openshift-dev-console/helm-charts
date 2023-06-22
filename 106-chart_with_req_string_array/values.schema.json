@@ -10,13 +10,13 @@
         "type": "array",
         "title": "Address",
         "description": "Define address",
-        "required": [
-          "Address1",
-          "Address2"
-        ],
         "items": {
           "type": "object",
           "additionalProperties": true,
+          "required": [
+            "Address1",
+            "Address2"
+          ],
           "properties": {
             "Address1": {
               "type": "string"
