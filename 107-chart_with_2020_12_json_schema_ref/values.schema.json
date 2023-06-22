@@ -6,7 +6,7 @@
   "properties": {
       "upstream": {
           "title": "Upstream Backstage chart schema.",
-          "$ref": "https://raw.githubusercontent.com/backstage/charts/main/charts/backstage/values.schema.json",
+          "$ref": "https://github.com/openshift-dev-console/helm-charts/blob/main/107-chart_with_2020_12_json_schema/values.schema.json",
           "default": {
               "backstage": {
                   "image": {
