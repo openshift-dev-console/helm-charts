@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "address": {
+        "type": "array",
+        "title": "Address",
+        "description": "Define address",
+        "items": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "Address1": {
+              "type": "string"
+            },
+            "Address2": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+}
