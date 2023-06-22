@@ -14,7 +14,8 @@
           "additionalProperties": true,
           "properties": {
             "Address1": {
-              "type": "string"
+              "type": "string",
+              "pattern": "^[a-z0-9-_./]+$"  
             },
             "Address2": {
               "type": "string"
