@@ -3,7 +3,7 @@ entries:
   101-chart_without_values:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.244079+05:30"
+    created: "2023-06-23T14:01:04.565308+05:30"
     description: A Helm chart for Kubernetes
     digest: 8f3a88d97d8479da2327d90f7bc39b7618cb217b0224737f14fc1f9399efe3c2
     name: 101-chart_without_values
@@ -13,7 +13,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.243981+05:30"
+    created: "2023-06-23T14:01:04.565208+05:30"
     description: A Helm chart for Kubernetes
     digest: abfa2c424577c48e5c7de77d4ddc37da80ba6a2bfe93cc2e911fa8fbddd53c37
     name: 101-chart_without_values
@@ -23,7 +23,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.243867+05:30"
+    created: "2023-06-23T14:01:04.565103+05:30"
     description: A Helm chart for Kubernetes
     digest: 14f89d8ed1dd1f365c8f3db40d397add4b4c0e93618d87c1ca9648d087c50c00
     name: 101-chart_without_values
@@ -33,7 +33,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.24306+05:30"
+    created: "2023-06-23T14:01:04.564976+05:30"
     description: A Helm chart for Kubernetes
     digest: c00c4e6e3d327ac32c2a74e5ff39e63b8e75fa6b766e33dee63989ed27b90cf2
     name: 101-chart_without_values
@@ -44,7 +44,7 @@ entries:
   102-chart_with_one_opt_string:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.244845+05:30"
+    created: "2023-06-23T14:01:04.566129+05:30"
     description: A Helm chart for Kubernetes
     digest: 0565386b630f4eee05f740e3fadc960825c67532cdbac8e42e530d256b2a3948
     name: 102-chart_with_one_opt_string
@@ -54,7 +54,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.244731+05:30"
+    created: "2023-06-23T14:01:04.565998+05:30"
     description: A Helm chart for Kubernetes
     digest: 1b7bc90f34450db5dddea23d8ff112096d8793b854d1d9df293c64ceb8ce5aa9
     name: 102-chart_with_one_opt_string
@@ -64,7 +64,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.244614+05:30"
+    created: "2023-06-23T14:01:04.565875+05:30"
     description: A Helm chart for Kubernetes
     digest: e0097c14d567e105b7a2fd481ca703d41f9dc2ff18d6ec882b3a3fb64d0709d6
     name: 102-chart_with_one_opt_string
@@ -74,7 +74,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.244352+05:30"
+    created: "2023-06-23T14:01:04.565583+05:30"
     description: A Helm chart for Kubernetes
     digest: 42b2f1f1f26820d0803f027d51d27ef0505008d85c588c427f54872c9e6084d9
     name: 102-chart_with_one_opt_string
@@ -85,7 +85,7 @@ entries:
   102-chart_with_one_req_string:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.245265+05:30"
+    created: "2023-06-23T14:01:04.566608+05:30"
     description: A Helm chart for Kubernetes
     digest: b92ec5e7f032889a407b5e94a61fbc63182f676cbb98a2e9da2e802c1295a104
     name: 102-chart_with_one_req_string
@@ -95,7 +95,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.245156+05:30"
+    created: "2023-06-23T14:01:04.566495+05:30"
     description: A Helm chart for Kubernetes
     digest: 51defef846a83a7b3d48bb166ca12d53f4f555d83ed2433dbdf5b3987ad6cc5d
     name: 102-chart_with_one_req_string
@@ -105,7 +105,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.24505+05:30"
+    created: "2023-06-23T14:01:04.566364+05:30"
     description: A Helm chart for Kubernetes
     digest: f180acee48b8f86d0954e69a285ff123abdacbd442a18c2c3be6e5c87d0b95bd
     name: 102-chart_with_one_req_string
@@ -115,7 +115,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.244947+05:30"
+    created: "2023-06-23T14:01:04.566245+05:30"
     description: A Helm chart for Kubernetes
     digest: cb1cd5024351bff02763323ddf1da32ef4d802d753bf388225e4527355474253
     name: 102-chart_with_one_req_string
@@ -126,7 +126,7 @@ entries:
   104-chart_with_obj_and_opt_strings:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.245381+05:30"
+    created: "2023-06-23T14:01:04.566733+05:30"
     description: A Helm chart for Kubernetes
     digest: 52fa8fd79806d99b4454318a3b5a777dba9c5660e530fd0d4fab0ad45dbcc055
     name: 104-chart_with_obj_and_opt_strings
@@ -137,7 +137,7 @@ entries:
   104-chart_with_obj_and_req_strings:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.245837+05:30"
+    created: "2023-06-23T14:01:04.56722+05:30"
     description: A Helm chart for Kubernetes
     digest: 233736cc0b62da916e2a1888c6dabad1c9f6af1196e09820a2fdd406d0004ddb
     name: 104-chart_with_obj_and_req_strings
@@ -147,7 +147,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.245727+05:30"
+    created: "2023-06-23T14:01:04.567107+05:30"
     description: A Helm chart for Kubernetes
     digest: fe8c3091c1d79f163569129e8f085efc30de651da3ec33892554d4a01b81067e
     name: 104-chart_with_obj_and_req_strings
@@ -157,7 +157,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.245604+05:30"
+    created: "2023-06-23T14:01:04.566977+05:30"
     description: A Helm chart for Kubernetes
     digest: bfb5a4e83fee89f2a68173e3feb495a245d5bc483c86812b2903066b77aad06f
     name: 104-chart_with_obj_and_req_strings
@@ -167,7 +167,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.245489+05:30"
+    created: "2023-06-23T14:01:04.566861+05:30"
     description: A Helm chart for Kubernetes
     digest: c9e0936426a91c5650f5a84251bb17f235413fbb129b4af04ab42d15ce3fbf09
     name: 104-chart_with_obj_and_req_strings
@@ -178,7 +178,7 @@ entries:
   106-chart_with_opt_string_array:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.246037+05:30"
+    created: "2023-06-23T14:01:04.567444+05:30"
     description: A Helm chart for Kubernetes
     digest: a6124e81e93a7da0791e4ed5c5f721236d236db9f6d055136a3ffc5d2ad7c774
     name: 106-chart_with_opt_string_array
@@ -188,7 +188,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.24594+05:30"
+    created: "2023-06-23T14:01:04.567331+05:30"
     description: A Helm chart for Kubernetes
     digest: f57a7e5a8047cd470933edd9cfd7c4b63bbf8f5f98d3afdb4e8abd5cf8daf33e
     name: 106-chart_with_opt_string_array
@@ -199,7 +199,7 @@ entries:
   106-chart_with_req_string_array:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.246347+05:30"
+    created: "2023-06-23T14:01:04.567784+05:30"
     description: A Helm chart for Kubernetes
     digest: 64ee546fab3c306d2c49fd985bdd1f8c9ab815549ea6d1e05b5ee34fde9c2edd
     name: 106-chart_with_req_string_array
@@ -209,7 +209,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.246237+05:30"
+    created: "2023-06-23T14:01:04.567674+05:30"
     description: A Helm chart for Kubernetes
     digest: ab68440e809684ff68586aee4a51b3ff81889f45824a0f7d500395e5a1ffd569
     name: 106-chart_with_req_string_array
@@ -219,7 +219,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.24613+05:30"
+    created: "2023-06-23T14:01:04.567566+05:30"
     description: A Helm chart for Kubernetes
     digest: ca8cdad622c0ccc8ac869c66365174dfa608dd13fcae12c304458f4a44caa403
     name: 106-chart_with_req_string_array
@@ -230,7 +230,7 @@ entries:
   107-chart_with_2020_12_json_schema:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.246458+05:30"
+    created: "2023-06-23T14:01:04.567896+05:30"
     description: A Helm chart for Kubernetes
     digest: 8bd7bae2b47e7060692db17108d5da4628c72aac00c05b39986452aac9877c37
     name: 107-chart_with_2020_12_json_schema
@@ -241,7 +241,17 @@ entries:
   107-chart_with_2020_12_json_schema_ref:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.246585+05:30"
+    created: "2023-06-23T14:01:04.568436+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 2f1bd3b4d85ece50d397fbb70debe6d385bc3c08cacf4dad45b1009a2ee3e917
+    name: 107-chart_with_2020_12_json_schema_ref
+    type: application
+    urls:
+    - 107-chart_with_2020_12_json_schema_ref-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-23T14:01:04.568023+05:30"
     description: A Helm chart for Kubernetes
     digest: 7dc1c7122dd981d420860dd30ce35d373ed741fe4660b0e5ad1b9595086e85a2
     name: 107-chart_with_2020_12_json_schema_ref
@@ -252,7 +262,7 @@ entries:
   108-chart_with_2019_09_json_schema:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.246922+05:30"
+    created: "2023-06-23T14:01:04.569873+05:30"
     description: A Helm chart for Kubernetes
     digest: 6d20e05fc02d3fce02d5b023f37e841e65f43214d0bf742a3451f651f2242bc3
     name: 108-chart_with_2019_09_json_schema
@@ -262,7 +272,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.246811+05:30"
+    created: "2023-06-23T14:01:04.569742+05:30"
     description: A Helm chart for Kubernetes
     digest: 0ebe6e0e348a18876072f19da673cdcc00530623d63a3dcbc245982703be49d3
     name: 108-chart_with_2019_09_json_schema
@@ -272,7 +282,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.246698+05:30"
+    created: "2023-06-23T14:01:04.569413+05:30"
     description: A Helm chart for Kubernetes
     digest: 2cccdea5a54c35bb10b394d044ab9053b25fea15d07671e8a22f9b9ce9ccf6e4
     name: 108-chart_with_2019_09_json_schema
@@ -283,7 +293,7 @@ entries:
   109-chart_with_2020_12_json_schema_local_ref:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.247046+05:30"
+    created: "2023-06-23T14:01:04.570014+05:30"
     description: A Helm chart for Kubernetes
     digest: 54f1c5879a836d65ba540d06e5d61c02e9ebb92bbe9c1517ca974df2eaa90c46
     name: 109-chart_with_2020_12_json_schema_local_ref
@@ -294,7 +304,7 @@ entries:
   chart-101:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.247536+05:30"
+    created: "2023-06-23T14:01:04.570579+05:30"
     description: A Helm chart for Kubernetes
     digest: c025e8d38293f27473acf02bc6f3fa342ded24dbd32c19d960e779a41593987c
     name: chart-101
@@ -304,7 +314,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.247293+05:30"
+    created: "2023-06-23T14:01:04.570329+05:30"
     description: A Helm chart for Kubernetes
     digest: 3ba4ed4513aeeec6c87642f9bca0f3785a244234240737cf446ddb8f50ca1e72
     name: chart-101
@@ -315,7 +325,7 @@ entries:
   chart-103:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.247846+05:30"
+    created: "2023-06-23T14:01:04.570903+05:30"
     description: A Helm chart for Kubernetes
     digest: 55192d98809646f77fc088762ceb0197b866e21a3435c7223fa0a263ddf2949e
     name: chart-103
@@ -325,7 +335,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-23T13:45:42.247671+05:30"
+    created: "2023-06-23T14:01:04.570726+05:30"
     description: A Helm chart for Kubernetes
     digest: ff207e6c5e42068968cc36ae30f1931e83dee661926477683c61ce177184f2f2
     name: chart-103
@@ -340,7 +350,7 @@ entries:
       charts.openshift.io/provider: RedHat
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-06-23T13:45:42.248017+05:30"
+    created: "2023-06-23T14:01:04.571095+05:30"
     description: A Helm chart for MySQL Service Endpoint Definition (SED)
     digest: ef7cf78e37f74bf3214c9446162907574a443a0f01bbcc7ff44d8b757a6e213d
     kubeVersion: '>=1.20.0'
@@ -349,4 +359,4 @@ entries:
     urls:
     - mysql-sed-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-23T13:45:42.242324+05:30"
+generated: "2023-06-23T14:01:04.564401+05:30"
