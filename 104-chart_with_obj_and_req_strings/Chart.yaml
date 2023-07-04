@@ -2,6 +2,13 @@ apiVersion: v2
 name: 104-chart_with_obj_and_req_strings
 description: A Helm chart for Kubernetes
 
+annotations:
+  charts.openshift.io/archs: x86_64
+  charts.openshift.io/name: Cryostat
+  charts.openshift.io/provider: Red Hat
+  charts.openshift.io/supportURL: https://github.com/cryostatio/cryostat-helm
+  charts.openshift.io/documentationURL: https://github.com/cryostatio/cryostat-helm
+
 # A chart can be either an 'application' or a 'library' chart.
 #
 # Application charts are a collection of templates that can be packaged into versioned archives
