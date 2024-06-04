@@ -1,0 +1,9 @@
+apiVersion: helm.openshift.io/v1beta1
+kind: ProjectHelmChartRepository
+metadata:
+  name: openshift-dev-console-test-helm-charts
+spec:
+  name: ODC test helm charts
+  description: Helm charts to test edge cases in the OpenShift Developer Console
+  connectionConfig:
+    url: 'https://openshift-dev-console.github.io/helm-charts'
