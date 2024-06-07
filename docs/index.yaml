@@ -344,6 +344,17 @@ entries:
     urls:
     - cve-2024-25620-0.1.0.tgz
     version: 0.1.0
+  cve-2024-26147:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-07T17:10:26.28950974+02:00"
+    description: A Helm chart for Kubernetes to test CVE-2024-26147
+    digest: 0b44ee9cc4accc25a1f1615a7841d5aaee1d069a33ff8b875ec3133e3f533b37
+    name: cve-2024-26147
+    type: application
+    urls:
+    - cve-2024-26147-0.1.0.tgz
+    version: 0.1.0
   mysql-sed:
   - annotations:
       charts.openshift.io/archs: x86_64
@@ -360,4 +371,4 @@ entries:
     urls:
     - mysql-sed-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-07T17:09:33.543659733+02:00"
+generated: "2024-06-07T17:10:26.289023126+02:00"
