@@ -365,6 +365,7 @@ entries:
     urls:
     - cve-2024-26147-0.1.0.tgz
     version: 0.1.0
+  - {}
   mysql-sed:
   - annotations:
       charts.openshift.io/archs: x86_64
