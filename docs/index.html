@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>Helm charts</title>
+    <style>
+      body {
+        font-family: Helvetica, arial, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+      }
+      a:link    { color: #00e; }
+      a:hover   { color: #55e; }
+      a:active  { color: #518; }
+      a:visited { color: #518; }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: #fff;
+          background-color: #222;
+        }
+        a:link    { color: #8bf; }
+        a:hover   { color: #6ad; }
+        a:active  { color: #c8f; }
+        a:visited { color: #c8f; }
+      }
+    </style>
+    <script type="module">
+      import * as YAML from 'https://unpkg.com/yaml@2.4.3/browser/dist/index.js';
+      class MyApp extends HTMLElement {
+        connectedCallback() {
+          fetch('index.yaml')
+            .then((response) => response.text())
+            .then((text) => YAML.parse(text))
+            .then((indexObject) => {
+              console.log('index.yaml as object', indexObject);
+              const entries = Object.entries(indexObject.entries);
+              const template = document.querySelector('template');
+              const clone = document.importNode(template.content, true);
+              const tbody = clone.querySelector('tbody');
+              const tr = tbody.querySelector('tr');
+              tr.remove();
+              entries.forEach(([chartName, versions]) => {
+                versions.forEach((version) => {
+                  const clone = tr.cloneNode(true);
+                  const tds = clone.querySelectorAll('td');
+                  let column = 0;
+                  tds[column++].textContent = chartName;
+                  tds[column++].textContent = version.version;
+                  tds[column++].textContent = version.type;
+                  tds[column++].textContent = version.name;
+                  tds[column++].textContent = version.description;
+                  tds[column++].textContent = version.created;
+                  tds[column++].textContent = version.urls?.join(', ');
+                  tbody.appendChild(clone);
+                });
+              });
+              this.appendChild(clone);
+            })
+            .catch(error => console.error('Error:', error));
+        }
+      }
+      customElements.define('my-app', MyApp);
+    </script>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Helm charts</h1>
+    <template>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Chart name</th>
+            <th>Version</th>
+            <th>Type</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Created</th>
+            <th>URLs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>my-app</td>
+            <td>0.1.0</td>
+            <td>application</td>
+            <td>My app</td>
+            <td>My app is awesome</td>
+            <td>2021-10-01</td>
+            <td>urls</td>
+          </tr>
+      </table>
+    </template>
+    <my-app></my-app>
+  </body>
+</html>
