@@ -344,6 +344,16 @@ entries:
     urls:
     - cve-2024-25620-0.1.0.tgz
     version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-07T17:09:33.544109605+02:00"
+    description: A Helm chart for Kubernetes to test CVE-2024-25620
+    digest: 899a93210e898c4268dff6fcbd5fb0fd346d5e02a7e22ad573ecc4e74b8bc32d
+    name: cve-2024-25620
+    type: application
+    urls:
+    - cve-2024-25620-0.2.0.tgz
+    version: 0.2.0
   cve-2024-26147:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -371,4 +381,4 @@ entries:
     urls:
     - mysql-sed-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-07T17:10:26.289023126+02:00"
+generated: "2024-06-07T17:24:14.161373142+02:00"
