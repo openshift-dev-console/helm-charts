@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "hosts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "http": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "retries": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "timeout": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              },
+              "required": ["retries", "timeout"]
+            }
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": ["http", "name"]
+      }
+    }
+  },
+  "required": ["hosts"]
+}

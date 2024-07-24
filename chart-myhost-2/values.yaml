@@ -1,0 +1,9 @@
+hosts:
+  - name: host4
+    http:
+      - retries: 4
+        timeout: 40
+  - name: host5
+    http:
+      - retries: 5
+        timeout: 50
