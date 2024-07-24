@@ -1,0 +1,9 @@
+test:
+  - test-name: host4
+    test-http:
+      - test-retries: 4
+        test-timeout: 40
+  - test-name: host5
+    test-http:
+      - test-retries: 5
+        test-timeout: 50
